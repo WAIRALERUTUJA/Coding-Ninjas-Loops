@@ -6,7 +6,7 @@ sum and computing the product of all integers in the range 1 to N (both inclusiv
 
 
 
-****** Solution *******
+****** Solution (Java Code) *******
 
 import java.util.Scanner;
 public class Main {
