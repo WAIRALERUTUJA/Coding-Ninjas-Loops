@@ -1,0 +1,28 @@
+********** Problem Statement *********
+
+Write a program to generate the reverse of a given number N. Print the corresponding reverse number.
+
+
+
+******** Solution (Java Code) ***************
+
+
+import java.util.Scanner;
+public class Main {
+	
+	public static void main(String[] args) {
+		// Write your code here
+        int num,revnum=0;
+		Scanner sc=new Scanner(System.in);
+		num=sc.nextInt();
+		while(num!=0)
+		{
+			revnum=revnum*10;
+			revnum=revnum+num%10;
+			num=num/10;
+		}
+		System.out.println(revnum);
+		
+
+	}
+}
